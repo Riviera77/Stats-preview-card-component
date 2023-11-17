@@ -23,7 +23,7 @@ Exemple
 
 sass/
 |
-|– abstracts/
+|– abstracts/utils
 | |– \_variables.scss # Sass Variables
 | |– \_functions.scss # Sass Functions
 | |– \_mixins.scss # Sass Mixins

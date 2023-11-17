@@ -1,0 +1,20 @@
+@use '../abstracts/_index' as utils
+
+.card__pub
+  margin-top: 1.25rem
+  font-weight: utils.$bold-weight
+  @extend %flex-center
+  gap: 0 20px
+  flex-wrap: wrap
+
+  & .card__number
+    color: utils.$stats
+    font-size: 1.125rem
+    font-family: utils.$lexend
+  
+.pub
+  width: 100px
+  height: auto
+  margin: 0
+
+

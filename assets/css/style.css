@@ -1,0 +1,116 @@
+body {
+  box-sizing: border-box;
+  font-size: 100%;
+  background-color: #202020;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.card__pub, .hero__card-items, .hero__card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+span {
+  color: hsl(277deg, 64%, 61%);
+}
+
+.flux {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__card-container {
+  background-color: hsl(233deg, 47%, 7%);
+  width: 90rem;
+  height: 37rem;
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 4rem;
+}
+
+.card__col-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  padding: 50px;
+  column-gap: 50px;
+}
+
+.card__col-right {
+  width: 27.5rem;
+  height: 21.875rem;
+  background-image: linear-gradient(rgba(170, 92, 219, 0.7), rgba(170, 92, 219, 0.7)), url("../../assets/img/image-header-desktop.jpg");
+  flex-shrink: 0;
+  border-radius: 0 7px 7px 0;
+}
+
+.hero__card-items {
+  width: 55rem;
+  height: 21.875rem;
+  margin-top: 6rem;
+  background-color: hsl(244deg, 38%, 16%);
+  border-radius: 7px;
+}
+
+.card__pub {
+  margin-top: 1.25rem;
+  font-weight: 700;
+  gap: 0 20px;
+  flex-wrap: wrap;
+}
+.card__pub .card__number {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.125rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.pub {
+  width: 100px;
+  height: auto;
+  margin: 0;
+}
+
+.card__text, .card__text--publicity {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.card__text--publicity {
+  text-transform: uppercase;
+}
+
+.card__title {
+  font-family: "Inter", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.75rem;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

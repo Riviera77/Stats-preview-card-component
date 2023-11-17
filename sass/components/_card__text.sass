@@ -1,0 +1,11 @@
+@use '../abstracts/_index' as utils
+
+.card__text
+  font-family: utils.$lexend
+  color: utils.$main-paragraph
+  font-size: utils.$font-size
+  font-weight: utils.$normal-weight
+
+  &--publicity
+    @extend .card__text
+    text-transform: uppercase

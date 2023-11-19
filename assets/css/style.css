@@ -1,3 +1,13 @@
+.card__pub, .hero__card-items, .hero__card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontend-mentor {
+  color: hsla(0deg, 0%, 100%, 0.6);
+}
+
 body {
   box-sizing: border-box;
   font-size: 100%;
@@ -21,12 +31,6 @@ a {
 
 ol, ul {
   list-style: none;
-}
-
-.card__pub, .hero__card-items, .hero__card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1 {
@@ -67,7 +71,7 @@ span {
 .card__col-right {
   width: 27.5rem;
   height: 21.875rem;
-  background-image: linear-gradient(rgba(170, 92, 219, 0.7), rgba(170, 92, 219, 0.7)), url("../../assets/img/image-header-desktop.jpg");
+  background-image: linear-gradient(rgba(156, 52, 221, 0.7), rgba(170, 92, 219, 0.7)), url("../../assets/img/image-header-desktop.jpg");
   flex-shrink: 0;
   border-radius: 0 7px 7px 0;
 }
